@@ -11,7 +11,7 @@ For hh-suite: git-repo version from 06.2023
 # build the image and start the container
 as to be adjusted depend on the directories. Here the docker vm runs on a server, which is located to my server home directory. So I first clone this image here into my home directory, eg with (from inside albedo in the folder)
 
-git clone https://github.com/swohlrab/MaMiMePro
+git clone https://github.com/MelissaMisir/phyla_analysis
 
 and set the permissons to
 chmod -R 777 MaMiMePro
