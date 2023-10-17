@@ -1,0 +1,9 @@
+version: '3'
+services:
+  mamimepro:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./bash_scripts:/bash_scripts
+      - ./pfamtab:/pfamtab
