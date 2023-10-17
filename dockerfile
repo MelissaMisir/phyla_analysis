@@ -35,4 +35,3 @@ RUN apt-get update && apt-get install -y git autoconf
 
 # Copy data to the container
 COPY bash_scripts /bash_scripts
-COPY pfamtab /pfamta

@@ -6,4 +6,3 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ./bash_scripts:/bash_scripts
-      - ./pfamtab:/pfamtab
